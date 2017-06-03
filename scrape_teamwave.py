@@ -37,7 +37,7 @@ except:
 
 
 pprint("Fetching links from dashboard ...")
-time.sleep(50)
+time.sleep(30)
 
 elems = browser.find_elements_by_xpath("//a[@href]")
 
@@ -58,7 +58,7 @@ print("\n")
 browser.get('https://app.teamwave.com/#/gettingstarted')
 
 pprint("Fetching links from 'Getting Started' ...")
-time.sleep(50)
+time.sleep(30)
 
 elems = browser.find_elements_by_xpath("//a[@href]")
 
@@ -78,7 +78,7 @@ print("\n")
 browser.get('https://app.teamwave.com/pm/#/projects')
 
 pprint("Fetching links for 'Projects' ...")
-time.sleep(50)
+time.sleep(30)
 
 count = 0
 elems = browser.find_elements_by_xpath("//a[@href]")
@@ -96,7 +96,7 @@ print("\n")
 browser.get('https://app.teamwave.com/crm/#/pipeline/default?deal=open&owner=all')
 
 pprint("Fetching links for 'CRM' ...")
-time.sleep(50)
+time.sleep(30)
 
 count = 0
 elems = browser.find_elements_by_xpath("//a[@href]")
@@ -114,7 +114,7 @@ print("\n")
 browser.get('https://app.teamwave.com/hrm/#/overview/615')
 
 pprint("Fetching links for 'HRM' ...")
-time.sleep(50)
+time.sleep(30)
 
 count = 0
 elems = browser.find_elements_by_xpath("//a[@href]")
